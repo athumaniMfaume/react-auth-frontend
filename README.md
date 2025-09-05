@@ -1,12 +1,36 @@
-# React + Vite
+# React Authentication Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern authentication frontend built with React and Tailwind CSS, designed to work with a Laravel backend.
 
-Currently, two official plugins are available:
+## Features
+- User registration and login
+- Responsive design
+- Private routes for protected pages
+- User profile management
+- Clean UI with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Connect to your Laravel backend API for authentication and user management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+- `src/Pages/` — Main pages (Login, Register, Profile)
+- `src/components/` — Reusable components (PrivateRoute, etc.)
+- `public/` — Static assets
+
+## API Integration
+Update the API endpoints in your frontend to match your Laravel backend routes.
+
+## License
+MIT
+
+---
+Feel free to contribute or open issues for improvements!
